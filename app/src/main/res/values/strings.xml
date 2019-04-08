@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Colourblindness</string>
+    <string name="content">
+Color blindness is just the most common term for describing all different types of vision conditions which relate to a less broader color spectrum. If you are affected by color blindness you can see less colors than a “normal” human being but not none.
+
+ \nColorblind people can see colors. They can see blue and violet, green and yellow, red and orange and a lot more. Maybe just a bit less colorful here and a bit less colorful there, which makes them having bigger problems to distinguish colors. But anyway, they definitely can see colors.
+
+</string>
+    <string name="guidelines">here will be some guidelines</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

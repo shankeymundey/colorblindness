@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backtwo"
+    tools:context="com.example.shankey.colourblindness.Detail">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="
+Color blindness is just the most common term for describing all different types of vision conditions which relate to a less broader color spectrum. If you are affected by color blindness you can see less colors than a “normal” human being but not none.
+
+ \n Colorblind people can see colors. They can see blue and violet, green and yellow, red and orange and a lot more. Maybe just a bit less colorful here and a bit less colorful there, which makes them having bigger problems to distinguish colors. But anyway, they definitely can see colors."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
+
+</LinearLayout>

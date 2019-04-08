@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backtwo"
+    android:orientation="vertical"
+    tools:context="com.example.shankey.colourblindness.Test">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+    <TextView
+
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+
+        android:text="Instructions"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+
+        android:text="Plates 1 – 17 each contain a number, plates 18 – 24 contain one or two wiggly lines. To pass each test you must identify the correct number, or correctly trace the wiggly lines.\n
+\n* Sit approximately 75cm from your monitor, with each circle set at eye level.\n
+\n* Preferably have mild natural light and no glare on your screen. Interior lights and glare can alter the color of the pictures.\n
+\n* Attempt to identify the hidden number or line within 5 seconds then click on the image.\n
+\n* Upon clicking, the answer will be revealed along with an analysis explaining your condition if you got it wrong.\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+           <TextView
+               android:fontFamily="casual"
+               android:layout_marginLeft="10dp"
+               android:textSize="15dp"
+               android:textStyle="bold"
+               android:textColor="@color/white"
+               android:layout_marginTop="1dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="* Continue to the next Ishihara test, Complete them all to help gauge your color blindness severity."
+               />
+
+
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/round"
+        android:onClick="btclick"
+        android:id="@+id/bt"
+        android:text="Start the test"
+        android:layout_width="300dp"
+        android:layout_height="35dp" />
+
+       </LinearLayout>
+
+   </ScrollView>
+</LinearLayout>

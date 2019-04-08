@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backtwo"
+    tools:context="com.example.shankey.colourblindness.Start">
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+         android:text="  click the picture to see the answers"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+   android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+</LinearLayout>

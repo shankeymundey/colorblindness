@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backtwo"
+    tools:context="com.example.shankey.colourblindness.MainActivity">
+
+    <ImageView
+
+        android:src="@drawable/lg"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="36dp"
+        android:layout_width=" 300dp"
+        android:layout_height="300dp" />
+
+
+    <Button
+    android:background="@drawable/round"
+    android:id="@+id/b1"
+    android:onClick="btn1"
+    android:text="know about colour blindness"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="40dp"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    />
+    <Button
+        android:background="@drawable/round"
+        android:id="@+id/b2"
+        android:onClick="btn2"
+        android:text="go for colour blindness test"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
