@@ -36,7 +36,6 @@ public class Start extends AppCompatActivity {
     @Override
     public  void onBackPressed(){
         AlertDialog.Builder ob=new AlertDialog.Builder(this);
-
         ob.setTitle("do you want to exit the test");
         ob.setPositiveButton("ok", new DialogInterface.OnClickListener() {
             @Override

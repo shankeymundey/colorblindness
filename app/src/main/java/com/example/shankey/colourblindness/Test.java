@@ -15,6 +15,12 @@ public class Test extends AppCompatActivity {
         bt=(Button)findViewById(R.id.bt);
     }
 
+
+
+
+
+
+
     public void btclick(View view) {
 
         Intent intent=new Intent(this,Start.class);

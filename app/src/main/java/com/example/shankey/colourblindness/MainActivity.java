@@ -15,6 +15,14 @@ public class MainActivity extends AppCompatActivity {
         b1=(Button)findViewById(R.id.b1);
         b2=(Button)findViewById(R.id.b2);
     }
+    @Override
+    public void onBackPressed() {
+        Intent homeIntent = new Intent(Intent.ACTION_MAIN);
+        homeIntent.addCategory( Intent.CATEGORY_HOME );
+        homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(homeIntent);
+    }
+
 
     public void btn1(View view) {
         Intent intent=new Intent(this,Detail.class);
